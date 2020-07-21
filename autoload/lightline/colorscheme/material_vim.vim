@@ -14,7 +14,7 @@ if (exists('g:lightline'))
       \ g:material_colorscheme_map.cyan.cterm
     \ ], [
       \ g:material_colorscheme_map.fg.gui,
-      \ g:material_colorscheme_map.line_numbers.gui,
+      \ 'NONE',
       \ g:material_colorscheme_map.fg.cterm,
       \ g:material_colorscheme_map.selection.cterm
     \ ] ]
@@ -28,16 +28,16 @@ if (exists('g:lightline'))
       \ g:material_colorscheme_map.cyan.cterm
     \ ], [
       \ g:material_colorscheme_map.fg.gui,
-      \ g:material_colorscheme_map.line_numbers.gui,
+      \ 'NONE',
       \ g:material_colorscheme_map.fg.cterm,
       \ g:material_colorscheme_map.selection.cterm
     \ ] ]
 
   let s:palette.normal.middle = [ [
-      \ s:lighter_middle_fg.gui,
-      \ g:material_colorscheme_map.selection.gui,
-      \ s:lighter_middle_fg.cterm,
-      \ g:material_colorscheme_map.selection.cterm
+      \ 'NONE',
+      \ 'NONE',
+      \ 'NONE',
+      \ 'NONE',
     \ ] ]
 
   let s:palette.normal.error = [ [
@@ -67,7 +67,7 @@ if (exists('g:lightline'))
       \ g:material_colorscheme_map.purple.cterm
     \ ], [
       \ g:material_colorscheme_map.fg.gui,
-      \ g:material_colorscheme_map.line_numbers.gui,
+      \ 'NONE',
       \ g:material_colorscheme_map.fg.cterm,
       \ g:material_colorscheme_map.selection.cterm
     \ ] ]
@@ -81,7 +81,7 @@ if (exists('g:lightline'))
       \ g:material_colorscheme_map.purple.cterm
     \ ], [
       \ g:material_colorscheme_map.fg.gui,
-      \ g:material_colorscheme_map.line_numbers.gui,
+      \ 'NONE',
       \ g:material_colorscheme_map.fg.cterm,
       \ g:material_colorscheme_map.selection.cterm
     \ ] ]
@@ -95,7 +95,7 @@ if (exists('g:lightline'))
       \ g:material_colorscheme_map.green.cterm
     \ ], [
       \ g:material_colorscheme_map.fg.gui,
-      \ g:material_colorscheme_map.line_numbers.gui,
+      \ 'NONE',
       \ g:material_colorscheme_map.fg.cterm,
       \ g:material_colorscheme_map.selection.cterm
     \ ] ]
@@ -109,7 +109,7 @@ if (exists('g:lightline'))
       \ g:material_colorscheme_map.green.cterm
     \ ], [
       \ g:material_colorscheme_map.fg.gui,
-      \ g:material_colorscheme_map.line_numbers.gui,
+      \ 'NONE',
       \ g:material_colorscheme_map.fg.cterm,
       \ g:material_colorscheme_map.selection.cterm
     \ ] ]
@@ -123,7 +123,7 @@ if (exists('g:lightline'))
       \ g:material_colorscheme_map.blue.cterm
     \ ], [
       \ g:material_colorscheme_map.fg.gui,
-      \ g:material_colorscheme_map.line_numbers.gui,
+      \ 'NONE',
       \ g:material_colorscheme_map.fg.cterm,
       \ g:material_colorscheme_map.selection.cterm
     \ ] ]
@@ -137,7 +137,7 @@ if (exists('g:lightline'))
       \ g:material_colorscheme_map.blue.cterm
     \ ], [
       \ g:material_colorscheme_map.fg.gui,
-      \ g:material_colorscheme_map.line_numbers.gui,
+      \ 'NONE',
       \ g:material_colorscheme_map.fg.cterm,
       \ g:material_colorscheme_map.selection.cterm
     \ ] ]
@@ -159,18 +159,22 @@ if (exists('g:lightline'))
     \ ] ]
 
   let s:palette.inactive.middle = [ [
-      \ s:lighter_middle_fg.gui,
-      \ g:material_colorscheme_map.selection.gui
+      \ 'NONE',
+      \ 'NONE',
+      \ 'NONE',
+      \ 'NONE',
     \ ] ]
 
   let s:palette.tabline.left = [ [
       \ g:material_colorscheme_map.fg.gui,
-      \ g:material_colorscheme_map.line_numbers.gui
+      \ 'NONE',
     \ ] ]
 
   let s:palette.tabline.middle = [ [
-      \ s:lighter_middle_fg.gui,
-      \ g:material_colorscheme_map.selection.gui
+      \ 'NONE',
+      \ 'NONE',
+      \ 'NONE',
+      \ 'NONE',
     \ ] ]
 
   let s:palette.tabline.right = [ [
